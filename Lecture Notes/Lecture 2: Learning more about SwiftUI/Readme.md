@@ -25,3 +25,13 @@ Using `ForEach` loop and see error of ```Referencing initializer 'init(_:content
 Spacer
   - Giving space as much as possible
   - Can be used with `Padding`
+
+ViewBuilder
+  
+LazyVGrid (like `TableView`)
+- Wait until the content is created (wait until accessing `body`)
+- 인자값에 `.adaptive` 를 사용하여 `.minimum` 을 사용하여 화면에 꽉차게 만들 수 있음
+  
+ScrollView
+  
+Stroke vs StrokeBorder
