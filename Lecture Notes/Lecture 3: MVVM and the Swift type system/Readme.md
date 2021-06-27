@@ -39,4 +39,7 @@ View
 ## Generics
 - "don't care" type
 
-## Closure, functions as types 
+## Closure, functions as types
+
+## Type Inference
+- e.g., `Color.white` -> `.white`
