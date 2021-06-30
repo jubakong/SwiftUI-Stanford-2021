@@ -15,6 +15,7 @@
 		890827122686FBA700A8E288 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 890827102686FBA700A8E288 /* LaunchScreen.storyboard */; };
 		8980781C2688D532001EBACB /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8980781B2688D532001EBACB /* MemoryGame.swift */; };
 		8980781E2688D7A9001EBACB /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8980781D2688D7A9001EBACB /* EmojiMemoryGame.swift */; };
+		89836CDC268C051700F1AAFE /* MemorizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89836CDB268C051700F1AAFE /* MemorizeApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		890827132686FBA700A8E288 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8980781B2688D532001EBACB /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
 		8980781D2688D7A9001EBACB /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
+		89836CDB268C051700F1AAFE /* MemorizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,15 +62,16 @@
 		890827042686FBA600A8E288 /* SwiftUI-Stanford-2021 */ = {
 			isa = PBXGroup;
 			children = (
+				8980781B2688D532001EBACB /* MemoryGame.swift */,
+				8980781D2688D7A9001EBACB /* EmojiMemoryGame.swift */,
+				890827092686FBA600A8E288 /* ContentView.swift */,
+				89836CDB268C051700F1AAFE /* MemorizeApp.swift */,
 				890827052686FBA600A8E288 /* AppDelegate.swift */,
 				890827072686FBA600A8E288 /* SceneDelegate.swift */,
-				890827092686FBA600A8E288 /* ContentView.swift */,
 				8908270B2686FBA700A8E288 /* Assets.xcassets */,
 				890827102686FBA700A8E288 /* LaunchScreen.storyboard */,
 				890827132686FBA700A8E288 /* Info.plist */,
 				8908270D2686FBA700A8E288 /* Preview Content */,
-				8980781B2688D532001EBACB /* MemoryGame.swift */,
-				8980781D2688D7A9001EBACB /* EmojiMemoryGame.swift */,
 			);
 			path = "SwiftUI-Stanford-2021";
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 				8980781C2688D532001EBACB /* MemoryGame.swift in Sources */,
 				8908270A2686FBA600A8E288 /* ContentView.swift in Sources */,
 				8980781E2688D7A9001EBACB /* EmojiMemoryGame.swift in Sources */,
+				89836CDC268C051700F1AAFE /* MemorizeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +300,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-Stanford-2021/Preview Content\"";
-				DEVELOPMENT_TEAM = M4K7GTWCV2;
+				DEVELOPMENT_TEAM = TG22ZHQ59G;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "SwiftUI-Stanford-2021/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -317,7 +321,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-Stanford-2021/Preview Content\"";
-				DEVELOPMENT_TEAM = M4K7GTWCV2;
+				DEVELOPMENT_TEAM = TG22ZHQ59G;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "SwiftUI-Stanford-2021/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
