@@ -7,3 +7,13 @@ Identifable
 - `ViewModel` `class` 를 `ObservableObject`를 `conform` 시킨다.
 - `model`의 값이 바뀔때마다 `@Published` 시킨다.
 - `View`단에서 `viewModel`앞에 `@ObservedObject`키워드를 추가 시킨다.
+
+Enum
+- `Value type` (like `struct`)
+- `Associated Data`
+
+Optional
+- Part of `Enum`
+
+Equatable
+- Make possible to compare (operand) e.g., a == b
