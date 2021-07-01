@@ -9,4 +9,3 @@ Access Control
 - private
 
 Computed Property
-- ㅁㄴㅇㄹ
