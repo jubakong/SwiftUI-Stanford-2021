@@ -1,6 +1,12 @@
 # Lecture 5: Properties Layout @ViewBuilder
 
 @State
-- private
+- private  
 - rebuild its body when your model is changed
 - stored in the `heap`
+
+Access Control
+- private
+
+Computed Property
+- 
